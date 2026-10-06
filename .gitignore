@@ -1,0 +1,27 @@
+# Personal runtime data must not enter a public code repository by accident.
+/private/
+/.runtime/
+/backups/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Development outputs
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+coverage/
+
+# Per-device Obsidian state
+**/.obsidian/workspace.json
+**/.obsidian/workspaces.json
