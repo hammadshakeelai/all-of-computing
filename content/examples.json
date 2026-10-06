@@ -1,0 +1,50 @@
+[
+  {
+    "id": "demo-functions",
+    "title": "Functions",
+    "domain": "Computing",
+    "requires": [],
+    "body": "A function is a named or anonymous operation that accepts inputs and can return a result. Parameters name the expected inputs; arguments are the actual values passed at a call.\n\nFor example, double(x) returns x * 2. Calling double(3) returns 6. A function helps reuse an operation and describe what a program does at a higher level. Some functions also have side effects, such as changing a file.\n\nPractice: describe the input, output, and possible side effects of a function that saves a note.",
+    "source": "Original illustrative material bundled with this application. Verify against your course materials."
+  },
+  {
+    "id": "demo-recursion",
+    "title": "Recursion",
+    "domain": "Computing",
+    "requires": ["demo-functions"],
+    "body": "Recursion solves a problem by applying the same operation to a smaller instance. A recursive function needs a base case that stops the calls, and a recursive step that moves toward the base case.\n\nFor nonnegative integers, factorial(0) = 1; factorial(n) = n * factorial(n - 1) when n > 0. So factorial(3) = 3 * 2 * 1 * 1 = 6. Without progress toward a base case, calls may continue until the call stack is exhausted.\n\nPractice: trace factorial(3) and explain why factorial(n + 1) would not move toward the base case.",
+    "source": "Original illustrative material bundled with this application."
+  },
+  {
+    "id": "demo-probability",
+    "title": "Conditional probability",
+    "domain": "Mathematics",
+    "requires": [],
+    "body": "Conditional probability P(A | B) measures the chance of A when B is known to have occurred. For P(B) > 0, P(A | B) = P(A and B) / P(B). Conditioning changes the set of possibilities under consideration.\n\nFor a fair six-sided die, let A mean rolling a 6, and B mean rolling an even number. Given B, the possible outcomes are 2, 4, and 6, so P(A | B) = 1/3. Without the condition, P(A) = 1/6.\n\nPractice: find the chance of rolling a number greater than 3 given that the number is even.",
+    "source": "Original illustrative material bundled with this application."
+  },
+  {
+    "id": "demo-energy",
+    "title": "Conservation of energy",
+    "domain": "Physics",
+    "requires": [],
+    "body": "The total energy of an isolated system is conserved. Energy can move between stores or forms, but it is not created or destroyed within that isolated system.\n\nAs a ball falls near Earth's surface, gravitational potential energy decreases and kinetic energy increases. Air resistance can transfer mechanical energy into thermal energy. Mechanical energy alone may decrease while total energy, including thermal stores, remains conserved. The choice of system boundary matters.\n\nPractice: explain why a bouncing ball eventually stops without violating energy conservation.",
+    "source": "Original illustrative material bundled with this application."
+  },
+  {
+    "id": "demo-sources",
+    "title": "Evaluating historical sources",
+    "domain": "Humanities",
+    "requires": [],
+    "body": "A historical claim should be evaluated using evidence and context. Ask who produced a source, when, for whom, for what purpose, and with what access to the events described. Compare independent sources where possible.\n\nA diary can reveal a writer's experience but does not automatically represent everyone's experience. An official report may contain useful records while reflecting the institution's priorities. A source's bias does not make every statement false, and a primary source is not automatically accurate.\n\nPractice: describe how you would compare a diary and an official report about the same event.",
+    "source": "Original illustrative material bundled with this application."
+  },
+  {
+    "id": "demo-recall",
+    "title": "Retrieval practice",
+    "domain": "Learning",
+    "requires": [],
+    "body": "Retrieval practice means attempting to recall or reconstruct an idea rather than only reading it again. A practical study cycle is: study a short explanation, close it, explain from memory, check the source, correct mistakes, and revisit later with a varied question.\n\nYour feeling of familiarity while reading is different from being able to explain or apply an idea independently. Track hints and distinguish a repeated question from a new application. The application uses simple configurable review intervals rather than a scientifically calibrated memory probability.\n\nPractice: explain an idea from yesterday without opening your notes, then check what you omitted.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/21252317/"
+  }
+]

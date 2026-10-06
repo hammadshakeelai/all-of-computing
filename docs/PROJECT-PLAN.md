@@ -2,6 +2,8 @@
 
 Status: planning baseline, 2026-10-06. This is a living plan. Record changed decisions and completed milestones as implementation proceeds.
 
+Implementation update: the local v1 is now implemented. See [RELEASE.md](RELEASE.md) for actual scope, architecture changes, verification, and remaining optional integrations. Proposed choices below describe the original roadmap; they are not all current dependencies.
+
 ## 1. Purpose
 
 Build a personal learning environment that can help you explore almost any subject, guide deliberate study, and preserve a trustworthy record of your learning. You should be able to say, “Teach me this,” “Quiz me,” “What do I already understand?” or “Continue where we stopped,” and get a useful response grounded in your materials and history.
@@ -362,6 +364,11 @@ Resolve the following incrementally; they do not prevent planning:
 - [x] Confirm local-first preference.
 - [x] Write product, screen, data, and first-build planning documents.
 - [ ] Select first learning objective and live AI configuration.
-- [ ] Implement and validate the first learning loop.
+- [x] Implement and validate the first learning loop with offline and mocked-provider checks.
+- [x] Add the local GUI, paths, course tracker, graph, reviews, and evidence history.
+- [ ] Validate a live configured AI model and calibrate grading on reviewed real answers.
+
+- **2026-10-06 implementation decision:** standard-library Python and browser JavaScript replace React/FastAPI to remove dependency setup for this local release.
+- **2026-10-06 implementation decision:** MIT license selected; optional OpenAI adapter implemented, live provider/model still user-configured.
 
 Discovery: an Obsidian vault alone cannot represent reliable assessment history. The app needs durable evidence records while preserving readable notes. Existing user knowledge is presently unknown; this plan creates no actual learner scores or study history.

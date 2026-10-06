@@ -1,6 +1,6 @@
 # First Build Brief
 
-Status: planned; no application code has been generated.
+Status: implemented as local v1 on 2026-10-06. The offline completion scenario and mocked-provider failure paths pass automated checks; live AI needs a configured key/model. See [RELEASE.md](RELEASE.md) and the repository README for setup and actual scope. This brief preserves the original build requirements below.
 
 ## Outcome
 

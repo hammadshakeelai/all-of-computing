@@ -1,6 +1,6 @@
 # Data and Knowledge Contract
 
-Status: proposed version 1, for review before implementation. These schemas describe intended records; no runtime database exists yet.
+Status: proposed full-domain contract, with a local v1 implementation now available. Actual storage uses typed JSON payloads in SQLite and a checksum-based Markdown write outbox; see [RELEASE.md](RELEASE.md). Some proposed entities/relationships and JSONL export layout below remain expansion targets. The implemented portable archive is one schema-versioned JSON document containing records, Markdown, settings, and checksums.
 
 ## Ownership
 

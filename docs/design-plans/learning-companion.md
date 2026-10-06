@@ -26,14 +26,16 @@ Frequency is a proposed relative ranking, not observed user behavior.
 
 ## Progress
 
-- [ ] Milestone 1: Study
-- [ ] Milestone 2: Answer and Feedback
-- [ ] Milestone 3: Today
-- [ ] Milestone 4: Library and Concept Detail
-- [ ] Milestone 5: Goals and Learning Path
-- [ ] Milestone 6: Knowledge Map
-- [ ] Milestone 7: Progress and Evidence
-- [ ] Milestone 8: Settings and Data
+- [x] Milestone 1: Study
+- [x] Milestone 2: Answer and Feedback
+- [x] Milestone 3: Today
+- [x] Milestone 4: Library and Concept Detail
+- [x] Milestone 5: Goals and Learning Path
+- [x] Milestone 6: Knowledge Map
+- [x] Milestone 7: Progress and Evidence
+- [x] Milestone 8: Settings and Data
+
+All screen areas are implemented at local v1 scope. Live AI quality and ordinary-browser download behavior remain validation items; see [RELEASE.md](../RELEASE.md).
 
 ## Design Milestones
 
