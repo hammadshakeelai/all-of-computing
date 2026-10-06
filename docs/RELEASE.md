@@ -29,7 +29,7 @@ A browser walkthrough in a separate synthetic directory verified examples, study
 
 The export API returned all concepts, a resource, the session note, and the original attempt from the browser walkthrough. The in-app browser's download-event inspection timed out; ordinary-browser download behavior remains a manual check. Archive integrity and restore are covered by tests.
 
-The local environment used Python 3.11.15 and Node 24.14.1. CI adds OS/runtime coverage after the pushed workflow runs; local tests alone do not establish CI completion.
+The local environment used Python 3.11.15 and Node 24.14.1. The initial release's [CI run](https://github.com/hammadshakeelai/all-of-computing/actions/runs/37512106151) passed all four Windows/Linux and Python 3.11/3.13 jobs. CI verifies the automated suite, not educational effectiveness.
 
 ## Remaining validation and extensions
 

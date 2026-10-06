@@ -4,6 +4,8 @@ Status: planning baseline, 2026-10-06. This is a living plan. Record changed dec
 
 Implementation update: the local v1 is now implemented. See [RELEASE.md](RELEASE.md) for actual scope, architecture changes, verification, and remaining optional integrations. Proposed choices below describe the original roadmap; they are not all current dependencies.
 
+Scope update: the learner confirmed computer science and AI around a BSAI degree. [SCOPE.md](SCOPE.md), [initial research](research/2026-10-06-scope-discovery.md), and [ROADMAP.md](ROADMAP.md) provide the current direction. Institution, semester, syllabus, weekly time, and proficiency remain unknown. The domain-neutral design below supports that first focus and later exploration.
+
 ## 1. Purpose
 
 Build a personal learning environment that can help you explore almost any subject, guide deliberate study, and preserve a trustworthy record of your learning. You should be able to say, “Teach me this,” “Quiz me,” “What do I already understand?” or “Continue where we stopped,” and get a useful response grounded in your materials and history.
@@ -23,9 +25,9 @@ The central distinction is between **a library of knowledge** and **evidence of 
 | Discover knowledge the user cannot easily describe | Requested | Adaptive diagnostics, teach-back, and imported work samples |
 | Durable history and continued learning | Requested | Recorded attempts, review queue, session resume, backups |
 | One learner initially | Proposed | Avoid accounts, organizations, and collaboration overhead |
-| Computing as first pilot | Provisional | Illustrative only; switch to the user's chosen subject |
+| CS and AI around the user's BSAI degree | Confirmed | Align the actual syllabus and diagnose prerequisite gaps before assigning a level |
 | Text before live voice | Proposed | Validate the teaching loop before speech infrastructure |
-| Open-source application | Proposed | Choose a license before distribution; portable personal data regardless |
+| Public open-source application | Confirmed and implemented | MIT code repository; personal records remain private |
 
 No imported note or empty profile should be interpreted as proof of understanding. Missing evidence means unknown, not failure.
 
